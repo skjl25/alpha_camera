@@ -1,10 +1,3 @@
-//============================================================================
-// Name        : Empty.cpp
-// Author      :
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
 #include <iostream>
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
@@ -12,14 +5,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-//#include "libfreenect.h"
 #include <pthread.h>
 #include <GL/glut.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <math.h>
 #include <pthread.h>
-//#include "libfreenect_sync.h"
 #include <math.h>
 
 #include "/root/workspace/include-files/cvideo.h"
