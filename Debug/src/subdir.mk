@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/ReMA.cpp 
+../src/alpha_camera.cpp 
 
 OBJS += \
-./src/ReMA.o 
+./src/alpha_camera.o 
 
 CPP_DEPS += \
-./src/ReMA.d 
+./src/alpha_camera.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
