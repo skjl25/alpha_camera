@@ -406,9 +406,6 @@ void storeDispVal_block_method_4(Camera* data, int** returnVal, int* testVal)
 }
 
 
-
-
-
 void encodeDepthBlock_4(short* orgArray, int* returnVal, int width, int height)
 {
 
@@ -417,10 +414,7 @@ void encodeDepthBlock_4(short* orgArray, int* returnVal, int width, int height)
 
 IplImage* blockData(int* blockVal)
 {
-	//			int* blockVal=blockTest(data[0].rawdepthImage, data[0].width, data[0].height);
-	//		storeDispVal_test(&data[0],intReturnVal,blockVal);
 
-	//		//////////////////////////////////////////////////
 	int* expVal=new int[gheight*gwidth];
 	int expValIndex=0;
 	for(int i=0;i<gheight*gwidth/16;i++)
